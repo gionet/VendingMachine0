@@ -43,7 +43,7 @@ def main():
         if userInput in menu:
             price = menu[userInput]
             total += price
-            print(f'Total: ${total:.2f}')
+            print(f'Total: {currency}{total:.2f}')
         
         else:
             print("Item not in list, please try again!")

@@ -1,5 +1,4 @@
 import math
-import msvcrt
 
 currency = "$"
 
